@@ -6,3 +6,4 @@ In more length: the term "<a href="https://html.spec.whatwg.org/#abstract">HTML5
 ## challenges
 1. 1/
    - a/ use teh class atribute to extends elememts. your <a href="">doc</a>
+   - b/ use the meta name="" content=""> mechanism to include page-wide metadata.
