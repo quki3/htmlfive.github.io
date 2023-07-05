@@ -1,0 +1,28 @@
+ .main {
+         background:conic-gradient( from 180deg at 0% 100%,  #DBDCD6 0deg,  #DBDCD6 55deg,  #DBDCD6 120deg,  #DBDCD6 160deg, transparent 360deg );
+   
+   
+          display: flex;
+           flex-direction: column;
+           align-items: top;
+           padding: 4rem;
+           min-height: 100vh;
+           font-family: var(--font-mono);
+           font-size:0.5rem;
+         }
+   .main h1 {
+     font-size:0.8rem;
+   }
+   .main p {
+    font-size:0.6rem;
+  }
+  .description {
+       display: inherit;
+       justify-content: flex-end;
+       align-items: inherit;
+       max-width: var(--max-width);
+       width: 100%;
+    }
+  .description p {
+    font-size:0.5rem;
+  }
