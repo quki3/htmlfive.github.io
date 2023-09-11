@@ -1,15 +1,39 @@
- .main {
-         background:conic-gradient( from 180deg at 0% 100%,  #DBDCD6 0deg,  #DBDCD6 55deg,  #DBDCD6 120deg,  #DBDCD6 160deg, transparent 360deg );
-   
-   
-          display: flex;
-           flex-direction: column;
-           align-items: top;
-           padding: 4rem;
-           min-height: 100vh;
-           font-family: var(--font-mono);
-           font-size:1rem;
-         }
+/*-------------- NAV-1 -----------------*/
+.nav-1 {
+	display: flex;
+        flex-direction: linear;
+	text-align: center;
+	margin: auto;
+	/*--style color*/
+	box-shadow: 0 0 2px #3C790A;
+	background: #3C790A;
+	background:conic-gradient( from 180deg at 0% 100%,  #DBDCD6 0deg,  #DBDCD6 55deg,  #DBDCD6 120deg,  #DBDCD6 160deg, transparent 360deg );
+
+}
+.nav-1 a {
+	margin: 0.5em;
+	font-size:0.9rem;
+	padding:0.5rem;
+	flex-direction:column;
+	/*style color*/
+	text-decoration: none;
+}
+.nav-1 strong {
+	display: block;
+}
+
+/*----------------------- MAIN --------------------*/
+
+.main {
+        background:conic-gradient( from 180deg at 0% 100%,  #DBDCD6 0deg,  #DBDCD6 55deg,  #DBDCD6 120deg,  #DBDCD6 160deg, transparent 360deg );
+   	display: flex;
+        flex-direction: column;
+        align-items: top;
+        padding: 4rem;
+	min-height: 100vh;
+        font-family: var(--font-mono);
+        font-size:1rem;
+	}
    .main h1 {
      font-size:1.2rem;
    }
