@@ -50,3 +50,18 @@
   .description p {
     font-size:1rem;
   }
+.note {
+	color: #D50606;
+	background: #FFFFCA;
+	font-weight: bolder;
+	font-style: italic;
+}
+.note::before {
+	color: yellow;
+	background: #D50606;
+	content: '\26A0 Warning!';
+	padding: 0.15em 0.25em;
+	position: relative;
+	top: -0.8em;
+	left: -0.8em
+}
