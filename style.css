@@ -1,26 +1,21 @@
 /*-------------- NAV-1 -----------------*/
-.nav-1 {
+.nav {
 	display: flex;
-        flex-direction: linear;
-	text-align: center;
-	margin: auto;
+	flex-direction:linear;
+	justify-content: center;
 	/*--style color*/
-	box-shadow: 0 0 2px #3C790A;
-	background: #3C790A;
+	box-shadow: 0 0 3px #3C790A;
+	
 	background:conic-gradient( from 180deg at 0% 100%,  #DBDCD6 0deg,  #DBDCD6 55deg,  #DBDCD6 120deg,  #DBDCD6 160deg, transparent 360deg );
 
 }
-.nav-1 a {
-	margin: 0.5em;
-	font-size:0.9rem;
-	padding:0.5rem;
-	flex-direction:column;
+.nav div {
+	padding:.05rem;
 	/*style color*/
-	text-decoration: none;
+	color:blue;
+	
 }
-.nav-1 strong {
-	display: block;
-}
+
 
 /*----------------------- MAIN --------------------*/
 
@@ -50,15 +45,16 @@
   .description p {
     font-size:1rem;
   }
+/*---------------------- WARNING ------------------------*/
 .note {
 	color: #D50606;
-	background: #FFFFCA;
+	background: #dde1e9;
 	font-weight: bolder;
 	font-style: italic;
 }
 .note::before {
 	color: yellow;
-	background: #D50606;
+	background: #212934;
 	content: '\26A0 Warning!';
 	padding: 0.15em 0.25em;
 	position: relative;
