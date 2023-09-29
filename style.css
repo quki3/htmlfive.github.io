@@ -1,22 +1,26 @@
-/*-------------- NAV-1 -----------------*/
-.nav {
-	display: flex;
-	flex-direction:linear;
-	justify-content: center;
-	/*--style color*/
-	box-shadow: 0 0 3px #3C790A;
-	
-	background:conic-gradient( from 180deg at 0% 100%,  #DBDCD6 0deg,  #DBDCD6 55deg,  #DBDCD6 120deg,  #DBDCD6 160deg, transparent 360deg );
 
+/*--------------------header---------*/
+#header {
+	display:inline-block
 }
-.nav div {
-	padding:.05rem;
-	/*style color*/
+
+/*---------------------nav---------------------*/
+#header nav {
+	box-shadow: 2px 2px 10px gray;
+	text-align:center;
+	margin:auto;
 	color:blue;
-	
 }
-
-
+#header-nav-div {
+	width:100vw;
+	box-shadow:5px 5px 5px blue;
+	background:#54B29A;
+}
+#header-nav-div span {
+	width:auto;
+	display:inline-block;
+	padding-bottom:.1em;
+}
 /*----------------------- MAIN --------------------*/
 
 .main {
