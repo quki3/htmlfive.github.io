@@ -304,5 +304,58 @@ footer li:hover{
 }
 
 
-@media (max-width: 475px) {
+@media (min-width: 300px) {
+	nav{
+                padding:60px 40px;
+        }
+	nav img{
+                width:170px;
+        }
+	#menu-open{
+                width:30px;
+                height:30px;
+                display:initial;
+        }
+        #menu-close{
+                display:initial;
+                font-size:1.2rem;
+                color:#fff;
+                padding:20px 0 15px 15px;
+        }
+        nav .navigation ul{
+                position:absolute;
+                top:0;
+                right:-20vh;
+                width:20vh;
+                height:100vh;
+                background:rgba(17,20,104,0.45);
+                border:1px solid rgba(255,255,255,0.18);
+                display:flex;
+                flex-direction:column;
+                justify-content:flex-start;
+                align-items:flex-start;
+                transition: 0.3s ease;
+        }
+	nav .navigation ul.active{
+                right:0;
+        }
+	#menu-close{
+		font-size:3rem;
+	}
+	#menu-open{
+		width:10rem;
+		height:12rem;
+	}
+        nav .navigation ul li{
+                padding:40px 0 40px 60px;
+                margin-left:0;
+        }
+        nav .navigation ul li a{
+                color:#fff;
+		font-size:30px;
+        }
+
+
+
+
 }
