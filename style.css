@@ -30,6 +30,7 @@ h6 {
 
 /* Navigation -------------------------------------------------------------*/
 nav{	
+	z-index:1;
 	position:fixed;
 	width:100%;
 	background-color:#fff;
@@ -43,6 +44,17 @@ nav{
 nav img{
 	width:100px;
 	cursor:pointer;
+}
+nav .navigation{
+	display:flex;
+}
+#menu-open{
+	width:40px;
+	height:40px;
+	display:none;
+}
+#menu-close{
+	display:none;
 }
 nav .navigation ul{
 	display: flex;
@@ -186,6 +198,47 @@ nav .navigation ul li a:hover {
 /* experts */
 
 /* footer */
+footer{
+	padding:8vw;
+	background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("");
+	display:flex;
+	justify-content: space-between;
+	align-items:flex-start;
+	flex-wrap:wrap;
+}
+footer .footer-col{
+	padding-bottom:40px;
+}
+footer h3{
+	color:rgb(241,240,245);
+	font-weight:600;
+	padding-bottom:20px;
+}
+footer li{
+	list-style:none;
+	color:rgb(241,240,245);
+	padding:3px 0;
+	font-size:15px;
+	cursor:pointer;
+	transition:0.3s ease;
+
+}
+footer li:hover{
+	list-style:on;
+}
+.copyright {
+	padding:15px 30px;
+	background:  #1c2833 ;
+	color:#fff;
+	display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+
+}
+.copyright img{
+	width:25px;
+
+}
 
 /* About */
 
@@ -198,7 +251,58 @@ nav .navigation ul li a:hover {
 /* responsive */
 
 @media (max-width: 769px) {
+	nav{
+		padding:15px 20px;
+	}
+	nav img{
+		width:110px;
+	}
+	#menu-open{
+		width:30px;
+		height:30px;
+		display:initial;
+	}
+	#menu-close{
+		display:initial;
+		font-size:1.2rem;
+		color:#fff;
+		padding:20px 0 15px 15px;
+	}
+	nav .navigation ul{
+		position:absolute;
+		top:0;
+		right:-220px;
+		width:220px;
+		height:100vh;
+		background:rgba(17,20,104,0.45);
+		border:1px solid rgba(255,255,255,0.18);
+		display:flex;
+		flex-direction:column;
+		justify-content:flex-start;
+		align-items:flex-start;
+		transition: 0.3s ease;
+	}
+	nav .navigation ul.active{
+		right:0;
+	}
+	nav .navigation ul li{
+		padding:20px 0 20px 40px;
+		margin-left:0;
+	}
+	nav .navigation ul li a{
+		color:#fff;
+	}
+	#nextsteps {
+  		padding: 8vw 4vw 0 4vw;
+	}
+	#community {
+  		padding: 8vw 4vw 0 4vw;
+	}
+	footer {
+  		padding: 6vw;
+	}
 }
+
 
 @media (max-width: 475px) {
 }
