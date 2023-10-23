@@ -71,6 +71,7 @@ nav .navigation ul li a{
 	font-weight:500;
 	transition:0.3s ease;
 }
+nav .navigation ul li a.active,
 nav .navigation ul li a:hover {
 	color: #d4ac0d ;
 }

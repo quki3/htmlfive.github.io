@@ -1,0 +1,62 @@
+/* About ------------------------------------------------------------------------------------------------*/
+#about{
+	background:linear-gradient(to bottom right, blue, pink);
+	width:100%;
+	height:70vh;
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+nav .navigation ul li a.active{
+	color: #b987c4;
+}
+
+#about h2{
+	color:#fff;
+	font-size:2.2rem;
+	letter-spacing:1px;
+}
+#about p{
+        width:80%;
+        color:#fff;
+        font-size:1rem;
+        line-height:25px;
+}
+#about .btn{
+        margin-top: 30px;
+}
+#about a{
+        text-decoration:none;
+        font-size:0.9rem;
+        padding:13px 35px;
+        background-color:#fff;
+        font-weight:600;
+        border-radius:5px;
+}
+#about a.blue{
+        color: #fff;
+        background-color:#5dade2;
+        transition:0.3s ease;
+}
+#about a.blue:hover{
+        color: #5dade2;
+        background-color:#fff;
+}
+#community {
+	background:linear-gradient(to bottom right, green, white);
+}
+#community h2 {
+	color:#fff;
+        font-size:2.2rem;
+        letter-spacing:1px;
+}
+#community p {
+        color:#fff;
+        font-size:1rem;
+        line-height:25px;
+	text:center;
+}
